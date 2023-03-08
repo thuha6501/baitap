@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        Nhanvien nv = new KyThuat("6976320","Nguyễn Thi Thu Hà", "06/05/2001","TH", "Điện tử viễn thông");
+        Nhanvien nv = new KyThuat("tv6976320","Nguyễn Thi Thu Hà", "06/05/2001","TH", "Điện tử viễn thông");
         System.out.println(nv);
         System.out.println(nv.moTaCongViec());
 
